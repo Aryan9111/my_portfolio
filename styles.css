@@ -296,13 +296,13 @@ footer p {
     .intro img {
         float: none;
         display: block;
-        width: 160px;
+        width: 150x;
         height: 160px;
         margin: 0 auto 22px;
     }
 
     #projects article {
-        padding: 18px;
+        padding: 1.15rem;
     }
 
     button {
@@ -310,11 +310,6 @@ footer p {
     }
 }
 
-/* 15. Respect reduced-motion preferences */
-@media (prefers-reduced-motion: reduce) {
-    html {
-        scroll-behavior: auto;
-    }
 
     *,
     *::before,
